@@ -17,27 +17,6 @@ namespace JogoDaVelha
         bool turno = true, jogoFinal = false;
         string[] texto = new string[9];
 
-        private void btn_clean_Click(object sender, EventArgs e)
-        {
-
-            btn.Text = "";
-            button1.Text = "";
-            button2.Text = "";
-            button3.Text = "";
-            button4.Text = "";
-            button5.Text = "";
-            button6.Text = "";
-            button7.Text = "";
-            button8.Text = "";
-
-            rodadas = 0;
-            jogoFinal = false;
-
-            for (int i = 0; i < 9; i++)
-            {
-                texto[i] = "";
-            }
-        }
 
         public Form1()
         {
@@ -166,5 +145,26 @@ namespace JogoDaVelha
 
         }// fim método
 
+        private void btn_clean_Click(object sender, EventArgs e)
+        {
+
+            btn.Text = "";
+            button1.Text = "";
+            button2.Text = "";
+            button3.Text = "";
+            button4.Text = "";
+            button5.Text = "";
+            button6.Text = "";
+            button7.Text = "";
+            button8.Text = "";
+
+            rodadas = 0;
+            jogoFinal = false;
+
+            for (int i = 0; i < 9; i++)
+            {
+                texto[i] = "";
+            }
+        }
     }
 }
