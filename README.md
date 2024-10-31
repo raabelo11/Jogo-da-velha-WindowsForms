@@ -1,2 +1,2 @@
-# Jogo da velha - Windows FORMS C#
-Se trata de um projeto Windows Forms C#, que consiste em um jogo da velha simples, com contagem de vitórias para o player 1 e o player 2. Alguns métodos como o de checagem de vitória com arrays e vencedor.
+# Tic-Tac-Toe Game - Windows FORMS C#
+This is a Windows Forms C# project, which consists of a simple tic-tac-toe game, with counting victories for player 1 and player 2. Some methods such as checking victory with arrays and winner.
